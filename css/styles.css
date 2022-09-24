@@ -22,4 +22,12 @@ div.containerSmall {
   width: 100%;
   height: 20%;
   /* background-color: blue; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end
 };
+
+.sound {
+  /* justify-content: end; */
+  margin: 20px;
+}
