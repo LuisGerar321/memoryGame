@@ -12,11 +12,122 @@ body {
 
 }
 
-div.containerBig {
-  width: 100%;
-  height: 60%;
-  /* background-color: rgb(99, 8, 8); */
+.containerBig {
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row:auto auto;
 }
+
+
+  .green{
+    text-decoration: none;
+    padding: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #32d13d;
+    border-top-left-radius: 20%;
+    border: 2% double #011202;
+  }
+  .green:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+
+.red{
+    text-decoration: none;
+    padding: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #a82424;
+    background-color: #df2727;
+    border-top-right-radius: 20%;
+    border: 2% double #460b02;
+  }
+  .red:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.yellow{
+    text-decoration: none;
+    padding: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    background-color: #e3ed27;
+    border-bottom-left-radius: 20%;
+    border: 2% double #d8691e;
+  }
+  .yellow:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.blue{
+    text-decoration: none;
+    padding: 3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #a82424;
+    background-color: #3c49d8;
+    border-bottom-right-radius: 20%;
+    border: 2% double #460b02;
+  }
+  .blue:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.white{
+    position:absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin:16%;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 150%;
+    font-style: arial;
+    background-color: #f3f3f3;
+  
+  }
+  .white:hover{
+    opacity: .9;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
 
 div.containerSmall {
   width: 100%;
