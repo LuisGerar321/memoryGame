@@ -1,0 +1,25 @@
+
+body {
+  background-image: url(../media/back.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  /* background-color: blueviolet; */
+  padding: none;
+  margin: 0;
+
+}
+
+div.containerBig {
+  width: 100%;
+  height: 60%;
+  /* background-color: rgb(99, 8, 8); */
+}
+
+div.containerSmall {
+  width: 100%;
+  height: 20%;
+  /* background-color: blue; */
+};
